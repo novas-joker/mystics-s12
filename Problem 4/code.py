@@ -1,7 +1,7 @@
 expenses = {}
 while True:
     print("\nCommands: add <amount> <category> | report | exit")
-    command = input("Enter command: ").split()
+    command = input("Enter command: ").lower().split()
     if command[0] == "add":
         amount = float(command[1])
         category = command[2]

@@ -2,7 +2,7 @@ available_slots = [1, 2]
 parking = {}
 while True:
     print("\nCommands:park <vehicle_no> | remove <vehicle_no> | status | exit")
-    command = input("Enter command: ").split()
+    command = input("Enter command: ").lower().split()
     if command[0] == "park":
         vehicle_no = command[1]
         if not available_slots:
