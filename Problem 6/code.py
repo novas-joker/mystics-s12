@@ -1,4 +1,3 @@
-import re
 print("Password Strength Checker")
 print("-------------------------")
 print("Commands: check <password> | exit")
