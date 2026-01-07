@@ -10,7 +10,6 @@ while True:
             items[item_name]["quantity"] += quantity
         else:
             items[item_name] = {"price": price, "quantity": quantity}
-        print(f"Added {item_name}")
     elif command[0] == "bill":
         if not items:
             print("No items added.")
